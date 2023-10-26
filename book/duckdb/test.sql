@@ -1,4 +1,8 @@
 SELECT * FROM duckdb_extensions();
+INSTALL spatial;
+INSTALL parquet;
+LOAD spatial;
+LOAD parquet;
 CREATE TABLE cities AS SELECT * FROM 'https://open.gishub.org/data/duckdb/cities.csv';
 CREATE TABLE countries AS SELECT * FROM 'https://open.gishub.org/data/duckdb/countries.csv';
 FROM cities;
