@@ -34,3 +34,6 @@ SELECT * FROM rlf;
 ALTER TABLE rlf
 DROP COLUMN OBJECTID, Project_ID, Contact, Email, Notes;
 FROM rlf LIMIT 10;
+
+CREATE TABLE stations AS SELECT * FROM "https://open.gishub.org/data/duckdb/nyc_subway_stations.tsv";
+DESCRIBE stations;
