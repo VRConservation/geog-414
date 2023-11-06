@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "samples",
+"features": [
+{ "type": "Feature", "properties": { "name": "Point" }, "geometry": { "type": "Point", "coordinates": [ -100.0, 40.0 ] } },
+{ "type": "Feature", "properties": { "name": "Linestring" }, "geometry": { "type": "LineString", "coordinates": [ [ 0.0, 0.0 ], [ 1.0, 1.0 ], [ 2.0, 1.0 ], [ 2.0, 2.0 ] ] } },
+{ "type": "Feature", "properties": { "name": "Polygon" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 0.0, 0.0 ], [ 1.0, 0.0 ], [ 1.0, 1.0 ], [ 0.0, 1.0 ], [ 0.0, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "PolygonWithHole" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 0.0, 0.0 ], [ 10.0, 0.0 ], [ 10.0, 10.0 ], [ 0.0, 10.0 ], [ 0.0, 0.0 ] ], [ [ 1.0, 1.0 ], [ 1.0, 2.0 ], [ 2.0, 2.0 ], [ 2.0, 1.0 ], [ 1.0, 1.0 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "Collection" }, "geometry": { "type": "GeometryCollection", "geometries": [ { "type": "Point", "coordinates": [ 2.0, 0.0 ] }, { "type": "Polygon", "coordinates": [ [ [ 0.0, 0.0 ], [ 1.0, 0.0 ], [ 1.0, 1.0 ], [ 0.0, 1.0 ], [ 0.0, 0.0 ] ] ] } ] } }
+]
+}
